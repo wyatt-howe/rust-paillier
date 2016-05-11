@@ -1,0 +1,11 @@
+[package]
+name = "crypto"
+version = "0.1.0"
+authors = ["Thông <xcodevn@gmail.com>"]
+
+[lib]
+name = "crypto"
+
+[dependencies]
+gmp = { path = "gmp" }
+rand = "0.3"
