@@ -1,10 +1,10 @@
 [package]
-name = "crypto"
+name = "rust-paillier"
 version = "0.1.0"
 authors = ["Thông <xcodevn@gmail.com>"]
 
 [lib]
-name = "crypto"
+name = "rpaillier"
 
 [dependencies]
 gmp = { path = "gmp", version = "0.3.1"  }
