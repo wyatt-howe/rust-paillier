@@ -2,9 +2,13 @@
 name = "rust-paillier"
 version = "0.1.0"
 authors = ["Thông <xcodevn@gmail.com>"]
+description = "A quick implementation of Paillier crypto system"
+repository = "https://github.com/xcodevn/rust-paillier"
+license = "MIT"
+keywords = [ "cryptography", "paillier", "gmp", "homomorphic", "cryptosystem" ]
 
 [lib]
-name = "rpaillier"
+name = "paillier"
 
 [dependencies]
 gmp = { path = "gmp", version = "0.3.1"  }
