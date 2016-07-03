@@ -5,7 +5,7 @@ authors = ["Thông <xcodevn@gmail.com>"]
 description = "A quick implementation of GM and Paillier crypto systems"
 repository = "https://github.com/xcodevn/rust-paillier"
 license = "MIT"
-keywords = [ "cryptography", "paillier", "Goldwasser-Micali", "gmp", "homomorphic", "cryptosystem" ]
+keywords = [ "paillier", "Goldwasser-Micali", "homomorphic", "cryptosystem" ]
 
 [lib]
 name = "gm_paillier"
