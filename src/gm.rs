@@ -6,6 +6,8 @@ use rand::Rng;
 use rand;
 use rng::generate_strong_prime;
 
+pub Mpz;
+
 pub struct GmSk {
     pub p: Mpz,
     pub q: Mpz,
