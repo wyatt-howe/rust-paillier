@@ -1,6 +1,6 @@
 [package]
 name = "rust-gm-paillier"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["Thông <xcodevn@gmail.com>"]
 description = "A quick implementation of GM and Paillier crypto systems"
 repository = "https://github.com/xcodevn/rust-paillier"
