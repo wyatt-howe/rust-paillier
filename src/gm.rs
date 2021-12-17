@@ -1,12 +1,12 @@
 /// Goldwasser-Micali cryptosystem
 
-use gmp::mpz::Mpz;
+use gmp;
 use gmp::rand::RandState;
 use rand::Rng;
 use rand;
 use rng::generate_strong_prime;
 
-pub Mpz;
+pub type Mpz = gmp::mpz::Mpz;
 
 pub struct GmSk {
     pub p: Mpz,
