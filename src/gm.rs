@@ -6,7 +6,6 @@ use rand::Rng;
 use rand;
 use rng::generate_strong_prime;
 
-#[derive(Clone)]
 pub type Mpz = gmp::mpz::Mpz;
 
 pub struct GmSk {
