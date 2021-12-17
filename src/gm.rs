@@ -13,10 +13,13 @@ pub struct GmSk {
     pub q: Mpz,
 }
 
+#[derive(Clone, Debug)]
 pub struct GmPk {
     pub n: Mpz,
     pub x: Mpz,
 }
+
+#[derive(Clone, Debug)]
 pub struct GM {
     pub pk : GmPk,
     pub sk : GmSk,
